@@ -1,0 +1,53 @@
+{
+  "name": "webmcp-vue",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Vue composables for exposing typed tools through document.modelContext.",
+  "author": "HaNdTriX <handtrix@example.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/HaNdTriX/webmcp-vue#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaNdTriX/webmcp-vue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HaNdTriX/webmcp-vue/issues"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "play": "vite",
+    "test": "vitest",
+    "typecheck": "vue-tsc --noEmit",
+    "release": "bumpp",
+    "prepublishOnly": "pnpm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@tsdown/css": "^0.22.5",
+    "@types/node": "^26.1.1",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "@vitest/browser-playwright": "^4.1.10",
+    "bumpp": "^11.1.0",
+    "playwright": "^1.61.1",
+    "tsdown": "^0.22.5",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.4",
+    "vitest": "^4.1.10",
+    "vitest-browser-vue": "^2.1.0",
+    "vue": "^3.5.39",
+    "vue-tsc": "^3.3.7"
+  }
+}
