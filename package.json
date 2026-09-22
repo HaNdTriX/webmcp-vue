@@ -1,7 +1,7 @@
 {
   "name": "webmcp-vue",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Vue composables for exposing typed tools through document.modelContext.",
   "author": "HaNdTriX <handtrix@example.com>",
   "license": "MIT",
