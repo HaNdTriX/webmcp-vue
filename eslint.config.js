@@ -3,6 +3,6 @@ import { withVueTs, vueTsConfigs } from '@vue/eslint-config-typescript'
 
 export default withVueTs(
   { ignores: ['dist/**', 'playground/dist/**'] },
-  pluginVue.configs['flat/recommended'],
+  pluginVue.configs['flat/essential'],
   vueTsConfigs.recommended,
 )

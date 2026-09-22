@@ -32,6 +32,7 @@
     "dev": "tsdown --watch",
     "play": "vite",
     "test": "vitest",
+    "lint": "eslint .",
     "typecheck": "vue-tsc --noEmit",
     "release": "bumpp",
     "prepublishOnly": "pnpm run build"

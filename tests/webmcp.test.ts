@@ -100,7 +100,7 @@ test('registers, executes, and unregisters a tool', async () => {
   const tools = await document.modelContext?.getTools?.()
   expect(tools?.map((tool) => tool.name)).toEqual(['greet'])
 
-  const result = await document.modelContext?.executeTool?.(tools?.[0]!, { name: 'Vue' })
+  const result = await document.modelContext?.executeTool?.(tools![0], { name: 'Vue' })
   expect(JSON.parse(result ?? '{}')).toEqual({
     content: [{ type: 'text', text: 'Hello Vue' }],
   })
