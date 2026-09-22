@@ -10,6 +10,8 @@ Vue 3 composables for exposing typed, callable tools on `document.modelContext`,
 
 Inspired by and ported from [agentcathq/webmcp-react](https://github.com/agentcathq/webmcp-react).
 
+See the [API reference](./docs/api.md) for the complete public API.
+
 ## Requirements
 
 - Vue 3
