@@ -12,6 +12,11 @@ Inspired by and ported from [agentcathq/webmcp-react](https://github.com/agentca
 
 See the [API reference](./docs/api.md) for the complete public API.
 
+## Skills
+
+- [Set up webmcp-vue](./skills/webmcp-setup/SKILL.md) in a Vue 3 or Nuxt app.
+- [Add a WebMCP tool](./skills/webmcp-add-tool/SKILL.md) with `useMcpTool()`.
+
 ## Requirements
 
 - Vue 3
