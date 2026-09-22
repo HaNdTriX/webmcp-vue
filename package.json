@@ -2,6 +2,9 @@
   "name": "webmcp-vue",
   "type": "module",
   "version": "0.0.2",
+  "engines": {
+    "node": ">=24"
+  },
   "description": "Vue composables for exposing typed tools through document.modelContext.",
   "author": "HaNdTriX <handtrix@example.com>",
   "license": "MIT",
