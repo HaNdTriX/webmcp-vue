@@ -192,6 +192,14 @@ h2 {
   padding: 0.4rem;
 }
 
+.counter-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  min-width: 3rem;
+  text-align: center;
+}
+
 @media (max-width: 36rem) {
   .app {
     padding: 2rem 1rem;
