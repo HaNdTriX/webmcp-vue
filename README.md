@@ -1,5 +1,6 @@
 # webmcp-vue
 
+[![CI](https://github.com/HaNdTriX/webmcp-vue/actions/workflows/ci.yml/badge.svg)](https://github.com/HaNdTriX/webmcp-vue/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/webmcp-vue)](https://www.npmjs.com/package/webmcp-vue)
 [![npm downloads](https://img.shields.io/npm/dm/webmcp-vue)](https://www.npmjs.com/package/webmcp-vue)
 [![license](https://img.shields.io/github/license/HaNdTriX/webmcp-vue)](./LICENSE)
@@ -10,7 +11,7 @@ Vue 3 composables for exposing typed, callable tools on `document.modelContext`,
 
 Inspired by and ported from [agentcathq/webmcp-react](https://github.com/agentcathq/webmcp-react).
 
-See the [API reference](./docs/api.md) for the complete public API.
+See the [API reference](./docs/api.md) for the complete public API, or try the [live playground](https://handtrix.github.io/webmcp-vue/).
 
 ## Skills
 
