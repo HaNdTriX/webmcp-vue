@@ -2,6 +2,7 @@
   "name": "webmcp-vue",
   "type": "module",
   "version": "0.0.2",
+  "packageManager": "pnpm@11.9.0",
   "engines": {
     "node": ">=24"
   },
